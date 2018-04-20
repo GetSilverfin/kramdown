@@ -1,3 +1,7 @@
+# silverfin customizations
+
+- Removed e-mail obfuscation (already removed in upstream kramdown) because it causes an error when obfuscating e-mail addresses that contain multibyte utf-8 characters such as 8208 dash. https://github.com/GetSilverfin/silverfin/pull/4640
+
 # kramdown
 
 ## Readme first!
